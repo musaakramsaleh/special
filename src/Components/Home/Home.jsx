@@ -54,72 +54,74 @@ const Home = () => {
     };
 
     return (
-        <div className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-4 text-center">Products</h1>
+        <div className="">
+            <div className="bg-red-500">
+            <h1 className="text-3xl font-bold mb-4 text-center">Search Products</h1>
 
-            {error && <p className="text-red-500 text-center mb-4">{error}</p>}
+{error && <p className="text-red-500 text-center mb-4">{error}</p>}
 
-            {/* Filters */}
-            <div className="mb-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <input
-                        name="search"
-                        placeholder="Search by name"
-                        onChange={handleFilterChange}
-                        className="input input-bordered w-full"
-                    />
-                    <select
-                        name="brandName"
-                        onChange={handleFilterChange}
-                        className="select select-bordered w-full"
-                    >
-                        <option value="">Select brand</option>
-                        {brands.map((brand) => (
-                            <option key={brand} value={brand}>
-                                {brand}
-                            </option>
-                        ))}
-                    </select>
-                    <input
-                        name="category"
-                        placeholder="Filter by category"
-                        onChange={handleFilterChange}
-                        className="input input-bordered w-full"
-                    />
-                    <input
-                        name="minPrice"
-                        placeholder="Min price"
-                        onChange={handleFilterChange}
-                        className="input input-bordered w-full"
-                    />
-                    <input
-                        name="maxPrice"
-                        placeholder="Max price"
-                        onChange={handleFilterChange}
-                        className="input input-bordered w-full"
-                    />
-                    <select
-                        name="sortBy"
-                        onChange={handleFilterChange}
-                        className="select select-bordered w-full"
-                    >
-                        <option value="">Sort by</option>
-                        <option value="price">Price</option>
-                        <option value="productCreationDateTime">Date Added</option>
-                    </select>
-                    <select
-                        name="sortOrder"
-                        onChange={handleFilterChange}
-                        className="select select-bordered w-full"
-                    >
-                        <option value="asc">Ascending</option>
-                        <option value="desc">Descending</option>
-                    </select>
-                </div>
+{/* Filters */}
+<div className="mb-6 container mx-auto p-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <input
+            name="search"
+            placeholder="Search by name"
+            onChange={handleFilterChange}
+            className="input input-bordered w-full"
+        />
+        <select
+            name="brandName"
+            onChange={handleFilterChange}
+            className="select select-bordered w-full"
+        >
+            <option value="">Select brand</option>
+            {brands.map((brand) => (
+                <option key={brand} value={brand}>
+                    {brand}
+                </option>
+            ))}
+        </select>
+        <input
+            name="category"
+            placeholder="Filter by category"
+            onChange={handleFilterChange}
+            className="input input-bordered w-full"
+        />
+        <input
+            name="minPrice"
+            placeholder="Min price"
+            onChange={handleFilterChange}
+            className="input input-bordered w-full"
+        />
+        <input
+            name="maxPrice"
+            placeholder="Max price"
+            onChange={handleFilterChange}
+            className="input input-bordered w-full"
+        />
+        <select
+            name="sortBy"
+            onChange={handleFilterChange}
+            className="select select-bordered w-full"
+        >
+            <option value="">Sort by</option>
+            <option value="price">Price</option>
+            <option value="productCreationDateTime">Date Added</option>
+        </select>
+        <select
+            name="sortOrder"
+            onChange={handleFilterChange}
+            className="select select-bordered w-full"
+        >
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+        </select>
+    </div>
+</div>
+
             </div>
-
             {/* Product List */}
-            <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 container mx-auto p-4">
                 {products.map((product) => (
                     <li key={product._id} className="card bg-base-100 shadow-md p-4">
                         <h2 className="card-title">{product.productName}</h2>
@@ -132,7 +134,7 @@ const Home = () => {
             </ul>
 
             {/* Pagination */}
-            <div className="flex justify-between items-center mt-6">
+            <div className="flex justify-between items-center mt-6 mb-6 container mx-auto p-4">
                 <button
                     onClick={() => setPage((prev) => Math.max(prev - 1, 1))}
                     disabled={page === 1}
