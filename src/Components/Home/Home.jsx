@@ -155,7 +155,7 @@ const Home = () => {
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 container mx-auto p-4">
                 {products.map((product) => (
                     <li key={product._id} className="card bg-base-100 shadow-md p-4">
-                        <img src={product.productImage} alt="" />
+                        <img className="" src={product.productImage} alt="" />
                         <h2 className="card-title">{product.productName}</h2>
                         <p className="text-sm text-gray-500">Brand: {product.brandName}</p>
                         <p className="text-sm text-gray-500">Category: {product.category}</p>
