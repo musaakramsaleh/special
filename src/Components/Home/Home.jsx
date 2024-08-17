@@ -14,20 +14,38 @@ const Home = () => {
         sortBy: '',
         sortOrder: 'asc'
     });
+    const [brands, setBrands] = useState([]);
+    const [error, setError] = useState('');
 
     useEffect(() => {
         fetchProducts();
+        fetchBrands();
     }, [page, filters]);
 
     const fetchProducts = async () => {
-        const { data } = await axios.get('http://localhost:5000/api/products', {
-            params: {
-                page,
-                ...filters
-            }
-        });
-        setProducts(data.products);
-        setTotalPages(data.totalPages);
+        try {
+            const { data } = await axios.get('http://localhost:5000/api/products', {
+                params: {
+                    page,
+                    ...filters
+                }
+            });
+            setProducts(data.products);
+            setTotalPages(data.totalPages);
+        } catch (error) {
+            console.error("Error fetching products", error);
+            setError('Error fetching products.');
+        }
+    };
+
+    const fetchBrands = async () => {
+        try {
+            const { data } = await axios.get('http://localhost:5000/api/brands');
+            setBrands(data.brands);
+        } catch (error) {
+            console.error("Error fetching brands", error);
+            setError('Error fetching brands.');
+        }
     };
 
     const handleFilterChange = (e) => {
@@ -39,6 +57,8 @@ const Home = () => {
         <div className="container mx-auto p-4">
             <h1 className="text-3xl font-bold mb-4 text-center">Products</h1>
 
+            {error && <p className="text-red-500 text-center mb-4">{error}</p>}
+
             {/* Filters */}
             <div className="mb-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -48,12 +68,18 @@ const Home = () => {
                         onChange={handleFilterChange}
                         className="input input-bordered w-full"
                     />
-                    <input
+                    <select
                         name="brandName"
-                        placeholder="Filter by brand"
                         onChange={handleFilterChange}
-                        className="input input-bordered w-full"
-                    />
+                        className="select select-bordered w-full"
+                    >
+                        <option value="">Select brand</option>
+                        {brands.map((brand) => (
+                            <option key={brand} value={brand}>
+                                {brand}
+                            </option>
+                        ))}
+                    </select>
                     <input
                         name="category"
                         placeholder="Filter by category"
@@ -79,7 +105,7 @@ const Home = () => {
                     >
                         <option value="">Sort by</option>
                         <option value="price">Price</option>
-                        <option value="dateAdded">Date Added</option>
+                        <option value="productCreationDateTime">Date Added</option>
                     </select>
                     <select
                         name="sortOrder"
@@ -99,6 +125,7 @@ const Home = () => {
                         <h2 className="card-title">{product.productName}</h2>
                         <p className="text-sm text-gray-500">Brand: {product.brandName}</p>
                         <p className="text-sm text-gray-500">Category: {product.category}</p>
+                        <p className="text-sm text-gray-500">created: {product.productCreationDateTime}</p>
                         <p className="text-xl font-semibold">${product.price}</p>
                     </li>
                 ))}
