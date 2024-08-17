@@ -18,7 +18,6 @@ const Navbar = () => {
     const navItems = ()=>{
         return <>
          <li><NavLink to='/' className={({isActive})=>isActive?'text-yellow-600 font-bold':'text-secondary'}>Home</NavLink></li>
-         <li><NavLink to='/gallery' className={({isActive})=>isActive?'text-yellow-600 font-bold':'text-secondary'}>All</NavLink></li>
          </>
         
     }
