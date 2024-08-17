@@ -1,0 +1,353 @@
+[
+    {
+      "productName": "Wireless Headphones",
+      "productImage": "https://example.com/images/wireless-headphones.jpg",
+      "description": "High-quality wireless headphones with noise-cancelling features and long battery life.",
+      "price": 120,
+      "category": "Electronics",
+      "ratings": 4.5,
+      "productCreationDateTime": "2023-01-15T10:30:00Z"
+    },
+    {
+      "productName": "Smartphone X200",
+      "productImage": "https://example.com/images/smartphone-x200.jpg",
+      "description": "Latest model smartphone with advanced camera and fast processing.",
+      "price": 899,
+      "category": "Mobile Phones",
+      "ratings": 4.8,
+      "productCreationDateTime": "2023-02-20T14:45:00Z"
+    },
+    {
+      "productName": "Gaming Laptop G7",
+      "productImage": "https://example.com/images/gaming-laptop-g7.jpg",
+      "description": "Powerful gaming laptop with high-end graphics and processing power.",
+      "price": 1500,
+      "category": "Computers",
+      "ratings": 4.7,
+      "productCreationDateTime": "2023-03-12T08:20:00Z"
+    },
+    {
+      "productName": "4K Ultra HD TV",
+      "productImage": "https://example.com/images/4k-ultra-hd-tv.jpg",
+      "description": "Ultra HD television with vibrant colors and high dynamic range.",
+      "price": 1200,
+      "category": "Home Appliances",
+      "ratings": 4.6,
+      "productCreationDateTime": "2023-04-05T13:15:00Z"
+    },
+    {
+      "productName": "Fitness Tracker Pro",
+      "productImage": "https://example.com/images/fitness-tracker-pro.jpg",
+      "description": "Advanced fitness tracker with heart rate monitoring and GPS tracking.",
+      "price": 150,
+      "category": "Wearables",
+      "ratings": 4.4,
+      "productCreationDateTime": "2023-05-10T09:50:00Z"
+    },
+    {
+      "productName": "Bluetooth Speaker S2",
+      "productImage": "https://example.com/images/bluetooth-speaker-s2.jpg",
+      "description": "Portable Bluetooth speaker with deep bass and long battery life.",
+      "price": 80,
+      "category": "Audio",
+      "ratings": 4.3,
+      "productCreationDateTime": "2023-06-18T15:40:00Z"
+    },
+    {
+      "productName": "Smartwatch Z4",
+      "productImage": "https://example.com/images/smartwatch-z4.jpg",
+      "description": "Sleek smartwatch with fitness tracking and customizable watch faces.",
+      "price": 250,
+      "category": "Wearables",
+      "ratings": 4.5,
+      "productCreationDateTime": "2023-07-22T11:25:00Z"
+    },
+    {
+      "productName": "Digital Camera D90",
+      "productImage": "https://example.com/images/digital-camera-d90.jpg",
+      "description": "Professional-grade digital camera with 4K video recording.",
+      "price": 950,
+      "category": "Cameras",
+      "ratings": 4.7,
+      "productCreationDateTime": "2023-08-15T16:10:00Z"
+    },
+    {
+      "productName": "Electric Scooter E5",
+      "productImage": "https://example.com/images/electric-scooter-e5.jpg",
+      "description": "Eco-friendly electric scooter with a long-range battery.",
+      "price": 700,
+      "category": "Transportation",
+      "ratings": 4.2,
+      "productCreationDateTime": "2023-09-03T10:05:00Z"
+    },
+    {
+      "productName": "Smart Thermostat",
+      "productImage": "https://example.com/images/smart-thermostat.jpg",
+      "description": "Energy-efficient smart thermostat with remote control via mobile app.",
+      "price": 180,
+      "category": "Home Appliances",
+      "ratings": 4.6,
+      "productCreationDateTime": "2023-10-01T14:00:00Z"
+    },
+    {
+      "productName": "Laptop Stand",
+      "productImage": "https://example.com/images/laptop-stand.jpg",
+      "description": "Ergonomic laptop stand with adjustable height and angle.",
+      "price": 40,
+      "category": "Accessories",
+      "ratings": 4.3,
+      "productCreationDateTime": "2023-11-11T09:30:00Z"
+    },
+    {
+      "productName": "Wireless Mouse X7",
+      "productImage": "https://example.com/images/wireless-mouse-x7.jpg",
+      "description": "Precision wireless mouse with customizable buttons and DPI settings.",
+      "price": 35,
+      "category": "Accessories",
+      "ratings": 4.4,
+      "productCreationDateTime": "2023-12-19T17:50:00Z"
+    },
+    {
+      "productName": "Tablet Pro T8",
+      "productImage": "https://example.com/images/tablet-pro-t8.jpg",
+      "description": "High-performance tablet with a large display and pen support.",
+      "price": 500,
+      "category": "Tablets",
+      "ratings": 4.7,
+      "productCreationDateTime": "2024-01-07T12:15:00Z"
+    },
+    {
+      "productName": "Noise Cancelling Headphones",
+      "productImage": "https://example.com/images/noise-cancelling-headphones.jpg",
+      "description": "Over-ear headphones with active noise cancellation and high-fidelity sound.",
+      "price": 200,
+      "category": "Audio",
+      "ratings": 4.8,
+      "productCreationDateTime": "2024-02-14T14:25:00Z"
+    },
+    {
+      "productName": "Gaming Console X9",
+      "productImage": "https://example.com/images/gaming-console-x9.jpg",
+      "description": "Next-gen gaming console with ultra-fast load times and immersive graphics.",
+      "price": 400,
+      "category": "Gaming",
+      "ratings": 4.9,
+      "productCreationDateTime": "2024-03-23T10:40:00Z"
+    },
+    {
+      "productName": "Smart Door Lock",
+      "productImage": "https://example.com/images/smart-door-lock.jpg",
+      "description": "Secure smart door lock with fingerprint recognition and mobile access.",
+      "price": 130,
+      "category": "Home Security",
+      "ratings": 4.5,
+      "productCreationDateTime": "2024-04-30T15:55:00Z"
+    },
+    {
+      "productName": "Portable Charger P2",
+      "productImage": "https://example.com/images/portable-charger-p2.jpg",
+      "description": "Compact portable charger with fast charging capabilities.",
+      "price": 25,
+      "category": "Accessories",
+      "ratings": 4.2,
+      "productCreationDateTime": "2024-05-06T08:20:00Z"
+    },
+    {
+      "productName": "Smart Glasses G1",
+      "productImage": "https://example.com/images/smart-glasses-g1.jpg",
+      "description": "Stylish smart glasses with built-in AR features and voice control.",
+      "price": 300,
+      "category": "Wearables",
+      "ratings": 4.6,
+      "productCreationDateTime": "2024-06-17T13:35:00Z"
+    },
+    {
+      "productName": "Gaming Chair Pro",
+      "productImage": "https://example.com/images/gaming-chair-pro.jpg",
+      "description": "Ergonomic gaming chair with adjustable lumbar support and reclining features.",
+      "price": 250,
+      "category": "Furniture",
+      "ratings": 4.7,
+      "productCreationDateTime": "2024-07-25T16:45:00Z"
+    },
+    {
+      "productName": "Smart Refrigerator",
+      "productImage": "https://example.com/images/smart-refrigerator.jpg",
+      "description": "Energy-efficient smart refrigerator with touchscreen controls and Wi-Fi connectivity.",
+      "price": 1800,
+      "category": "Home Appliances",
+      "ratings": 4.8,
+      "productCreationDateTime": "2024-08-31T09:50:00Z"
+    },
+    {
+      "productName": "Electric Toothbrush",
+      "productImage": "https://example.com/images/electric-toothbrush.jpg",
+      "description": "Advanced electric toothbrush with multiple brushing modes and a long-lasting battery.",
+      "price": 90,
+      "category": "Personal Care",
+      "ratings": 4.3,
+      "productCreationDateTime": "2024-09-15T11:30:00Z"
+    },
+    {
+      "productName": "Smart Coffee Maker",
+      "productImage": "https://example.com/images/smart-coffee-maker.jpg",
+      "description": "Automatic coffee maker with app control and customizable brew settings.",
+      "price": 150,
+      "category": "Kitchen Appliances",
+      "ratings": 4.3,
+      "productCreationDateTime": "2024-10-02T10:25:00Z"
+    },
+    {
+      "productName": "Digital Photo Frame",
+      "productImage": "https://example.com/images/digital-photo-frame.jpg",
+      "description": "High-resolution digital photo frame with Wi-Fi and cloud storage.",
+      "price": 70,
+      "category": "Home Decor",
+      "ratings": 4.5,
+      "productCreationDateTime": "2024-11-14T14:45:00Z"
+    },
+    {
+      "productName": "Home Security Camera",
+      "productImage": "https://example.com/images/home-security-camera.jpg",
+      "description": "High-definition security camera with night vision and motion detection.",
+      "price": 120,
+      "category": "Home Security",
+      "ratings": 4.6,
+      "productCreationDateTime": "2024-12-10T17:50:00Z"
+    },
+    {
+      "productName": "Wireless Earbuds W3",
+      "productImage": "https://example.com/images/wireless-earbuds-w3.jpg",
+      "description": "True wireless earbuds with superior sound quality and long battery life.",
+      "price": 100,
+      "category": "Audio",
+      "ratings": 4.4,
+      "productCreationDateTime": "2025-01-29T13:15:00Z"
+    },
+    {
+      "productName": "Smart Home Hub",
+      "productImage": "https://example.com/images/smart-home-hub.jpg",
+      "description": "Centralized smart home hub for controlling all your smart devices.",
+      "price": 200,
+      "category": "Home Automation",
+      "ratings": 4.7,
+      "productCreationDateTime": "2025-02-21T12:30:00Z"
+    },
+    {
+      "productName": "Electric Kettle",
+      "productImage": "https://example.com/images/electric-kettle.jpg",
+      "description": "Rapid-boil electric kettle with temperature control settings.",
+      "price": 50,
+      "category": "Kitchen Appliances",
+      "ratings": 4.3,
+      "productCreationDateTime": "2025-03-15T09:45:00Z"
+    },
+    {
+      "productName": "Smart Light Bulbs",
+      "productImage": "https://example.com/images/smart-light-bulbs.jpg",
+      "description": "Energy-saving smart light bulbs with customizable color and brightness.",
+      "price": 80,
+      "category": "Lighting",
+      "ratings": 4.5,
+      "productCreationDateTime": "2025-04-28T14:05:00Z"
+    },
+    {
+      "productName": "Wireless Charger Q1",
+      "productImage": "https://example.com/images/wireless-charger-q1.jpg",
+      "description": "Fast wireless charger with support for multiple devices.",
+      "price": 40,
+      "category": "Accessories",
+      "ratings": 4.4,
+      "productCreationDateTime": "2025-05-30T16:25:00Z"
+    },
+    {
+      "productName": "Smart Oven",
+      "productImage": "https://example.com/images/smart-oven.jpg",
+      "description": "Smart oven with app control and automatic cooking modes.",
+      "price": 300,
+      "category": "Kitchen Appliances",
+      "ratings": 4.7,
+      "productCreationDateTime": "2025-06-15T11:50:00Z"
+    },
+    {
+      "productName": "Noise Cancelling Earbuds",
+      "productImage": "https://example.com/images/noise-cancelling-earbuds.jpg",
+      "description": "True wireless earbuds with noise cancellation and superior sound quality.",
+      "price": 150,
+      "category": "Audio",
+      "ratings": 4.6,
+      "productCreationDateTime": "2025-07-22T14:35:00Z"
+    },
+    {
+      "productName": "Smart Lock Pro",
+      "productImage": "https://example.com/images/smart-lock-pro.jpg",
+      "description": "Advanced smart lock with fingerprint and facial recognition.",
+      "price": 250,
+      "category": "Home Security",
+      "ratings": 4.7,
+      "productCreationDateTime": "2025-08-17T16:45:00Z"
+    },
+    {
+      "productName": "Robot Vacuum Cleaner",
+      "productImage": "https://example.com/images/robot-vacuum-cleaner.jpg",
+      "description": "Automatic robot vacuum cleaner with smart navigation.",
+      "price": 350,
+      "category": "Home Appliances",
+      "ratings": 4.8,
+      "productCreationDateTime": "2025-09-25T10:00:00Z"
+    },
+    {
+      "productName": "Bluetooth Speaker Max",
+      "productImage": "https://example.com/images/bluetooth-speaker-max.jpg",
+      "description": "High-performance Bluetooth speaker with deep bass and clear sound.",
+      "price": 180,
+      "category": "Audio",
+      "ratings": 4.5,
+      "productCreationDateTime": "2025-10-12T15:30:00Z"
+    },
+    {
+      "productName": "Electric Fireplace",
+      "productImage": "https://example.com/images/electric-fireplace.jpg",
+      "description": "Modern electric fireplace with adjustable flame settings and remote control.",
+      "price": 600,
+      "category": "Home Decor",
+      "ratings": 4.6,
+      "productCreationDateTime": "2025-11-06T12:10:00Z"
+    },
+    {
+      "productName": "Smart Air Conditioner",
+      "productImage": "https://example.com/images/smart-air-conditioner.jpg",
+      "description": "Energy-efficient smart air conditioner with remote control via mobile app.",
+      "price": 700,
+      "category": "Home Appliances",
+      "ratings": 4.7,
+      "productCreationDateTime": "2025-12-19T10:45:00Z"
+    },
+    {
+      "productName": "Smart Yoga Mat",
+      "productImage": "https://example.com/images/smart-yoga-mat.jpg",
+      "description": "Interactive yoga mat with built-in sensors and guided workout sessions.",
+      "price": 120,
+      "category": "Fitness",
+      "ratings": 4.3,
+      "productCreationDateTime": "2026-01-27T08:20:00Z"
+    },
+    {
+      "productName": "Electric Bike E10",
+      "productImage": "https://example.com/images/electric-bike-e10.jpg",
+      "description": "High-performance electric bike with long battery life and fast charging.",
+      "price": 1000,
+      "category": "Transportation",
+      "ratings": 4.8,
+      "productCreationDateTime": "2026-02-14T11:50:00Z"
+    },
+    {
+      "productName": "Smart Ceiling Fan",
+      "productImage": "https://example.com/images/smart-ceiling-fan.jpg",
+      "description": "Energy-efficient smart ceiling fan with app control and voice commands.",
+      "price": 180,
+      "category": "Home Appliances",
+      "ratings": 4.4,
+      "productCreationDateTime": "2026-03-05T14:10:00Z"
+    }
+  ]
